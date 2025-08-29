@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-[#41FF6B1A]">
+
+  <div class="navbar shadow-sm flex flex-col sm:flex-row justify-between items-center px-4 sm:px-12 py-3 bg-white">
+    <div class="flex items-center gap-4">
+      <img src="assets/logo.png" alt="logo" class="w-12 h-12 rounded-full">
+      <h1 class="font-bold text-[#006747] text-center sm:text-left">
+        Emergency <br> Service
+      </h1>
+    </div>
+    <div class="flex gap-3 mt-3 sm:mt-0">
+      <button class="btn rounded-full bg-[#41FF6B1A] px-4 py-2 flex items-center gap-2" id="heart-btn">
+        <h1 class="font-bold text-[20px]" id="heart-count">0</h1>
+        <img src="assets/heart.png" alt="" class="w-6 h-6">
+      </button>
+      <button class="btn rounded-full bg-[#41FF6B1A] px-4 py-2 flex items-center gap-2">
+        <h1 class="font-bold text-[20px]">100</h1>
+        <img src="assets/coin.png" alt="" class="w-6 h-6">
+      </button>
+      <button class="btn rounded-full bg-green-600 text-white font-bold text-[20px] px-4 py-2 flex items-center gap-2">
+        <span id="copy-count">0</span> Copy
+      </button>
+    </div>
+  </div>
+  
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
